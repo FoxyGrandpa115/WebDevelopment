@@ -67,7 +67,13 @@ p{
     border: #333;
     border-style: groove;
 }
-
+li{
+    display: block;
+    text-align: left;
+    background-color: antiquewhite;
+    margin: auto;
+    color:black;
+}
 .secondary {
     background: black;
     color: rgb(255, 73, 73); 
@@ -77,27 +83,39 @@ p{
     color: white;
     margin: auto;
 }
-
+#link{
+    color: white;
+}
+body{
+    margin-left: 6%;
+    margin-right: 6%;
+}
 
 header {
     background: rgb(39, 39, 39);
     color: white;
-    margin:0;
-    padding: 5px 10px 0px 15px;
+    margin: auto;
+    padding: auto;
 }
 nav li{
     display: inline-block;
     padding: 5px 15px;
     background: rgb(20, 20, 20);
-    color: rgb(66, 151, 66)
-
+    color: rgb(66, 151, 66);
+    margin: auto;
 }
 footer{
     text-align: center;
     margin: auto;
     font-size: 12pt;
 }
-
+#dev{
+    background-image:url(images/developer.png); 
+}
+#art{
+    background-image:url(images/ship_crop.jpg);  
+    background-position: center;
+}
 .col{
     background: #333;
     background-image:url(images/mango_crop.jpg);
@@ -108,10 +126,10 @@ footer{
     margin: 1%;
     float: left;
     width: 31%;
-    font-size: 36pt;
+    font-size: 5vw;
     text-align: center;
     font-family:fantasy;
-    border-radius: 3px;
+    border-radius: 5px;
     font-family: Century Gothic;
     color: white;
 }
