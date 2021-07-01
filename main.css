@@ -1,11 +1,51 @@
 body {
     background:#999;
+    background-image:url(images/parsley.jpg);
+    background-position:auto;
+    background-size: 200%;
+    background-blend-mode: soft-light;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifl
 }
-h1,h2,p 
+.heading{
+    width:900px;
+    height:250px;
+    margin: auto;
+    position:absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+}
+.title1{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 60pt;
+    font-family: big john;
+}
+ul,ol{
+    display: block;
+    text-align: left;
+    background-color: antiquewhite;
+    margin: auto;
+}
+h2,p 
 {
     padding: 0px 25px;
-    color:rgb(68, 17, 17)
+    color:rgb(68, 17, 17);
+    border: #333;
+    margin: auto;
+    text-align: center;
+    
+    border-style: groove;
+
+}
+h1{
+    padding: 0px 25px;
+    color:rgb(68, 17, 17);
+    border: #333;
+    margin: auto;
+    text-align: center;
+    font-size: 60pt;
+    font-family:monospace;
+    border-style: groove;
 
 }
 a {
@@ -14,9 +54,18 @@ a {
 p{
     background: #666;
     color: white;
-    padding: 10px;
+    padding: 20px;
 }
 
+#normal,ol,ul{
+    display: block;
+    text-align: left;
+    background-color: antiquewhite;
+    margin: auto;
+    color:black;
+    border: #333;
+    border-style: groove;
+}
 .secondary {
     background: black;
     color: rgb(255, 73, 73); 
@@ -24,11 +73,10 @@ p{
 #special {
     background: green;
     color: white;
+    margin: auto;
 }
 
-body{
-    margin:0;
-}
+
 header {
     background: rgb(39, 39, 39);
     color: white;
@@ -42,16 +90,27 @@ nav li{
     color: rgb(66, 151, 66)
 
 }
-.row{
-
+footer{
+    text-align: center;
+    margin: auto;
+    font-size: 12pt;
 }
 
 .col{
     background: #333;
+    background-image:url(images/mango_crop.jpg);
+    background-position: auto;
+    background-blend-mode: soft-light;
+    background-size: 100%;
+    background-origin: unset;
     margin: 1%;
     float: left;
     width: 31%;
+    font-size: 36pt;
+    text-align: center;
+    font-family:fantasy;
     border-radius: 3px;
+    font-family: Century Gothic;
     color: white;
 }
 footer{
