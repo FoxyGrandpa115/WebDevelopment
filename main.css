@@ -24,7 +24,8 @@ ul,ol{
     display: block;
     text-align: left;
     background-color: antiquewhite;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 h2,p 
 {
@@ -66,6 +67,7 @@ p{
     border: #333;
     border-style: groove;
 }
+
 .secondary {
     background: black;
     color: rgb(255, 73, 73); 
