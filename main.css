@@ -1,10 +1,13 @@
 body {
     background:#999;
     background-image:url(images/parsley.jpg);
-    background-position:auto;
     background-size: 200%;
     background-blend-mode: soft-light;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifl
+    background-position-y: 1vw;
+    background-position-x: 0vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifl;
+    overflow: auto;
+
 }
 .heading{
     width:900px;
@@ -20,6 +23,14 @@ body {
     font-size: 60pt;
     font-family: big john;
 }
+#banner{
+    background-image:url(images/Banner.gif);
+    background-position-x: center;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
 ul,ol{
     display: block;
     text-align: left;
@@ -34,9 +45,8 @@ h2,p
     border: #333;
     margin: auto;
     text-align: center;
-    
     border-style: groove;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifl;
 }
 h1{
     padding: 0px 25px;
@@ -62,6 +72,7 @@ p{
     display: block;
     text-align: left;
     background-color: antiquewhite;
+    background: antiquewhite;
     margin: auto;
     color:black;
     border: #333;
@@ -73,6 +84,13 @@ li{
     background-color: antiquewhite;
     margin: auto;
     color:black;
+}
+#des{
+    color: black;
+    background-color: antiquewhite;
+    margin-left: 0;
+    width: 30%;
+    overflow: auto;
 }
 .secondary {
     background: black;
@@ -109,6 +127,13 @@ footer{
     margin: auto;
     font-size: 12pt;
 }
+.aligned{
+    display: flex;
+    align-items: center;
+    background: antiquewhite;
+    border: #333;
+    border-style: groove;
+}
 #dev{
     background-image:url(images/developer.png); 
 }
@@ -132,6 +157,14 @@ footer{
     border-radius: 5px;
     font-family: Century Gothic;
     color: white;
+}
+html{
+    overflow: scroll;
+}
+.box{
+    overflow: hidden;
+    display: block;
+    background: antiquewhite;
 }
 footer{
     clear: both;
