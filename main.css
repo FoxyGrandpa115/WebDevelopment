@@ -63,7 +63,7 @@ a {
     color: green;
 }
 p{
-    background: #666;
+    background: rgb(61, 61, 61);
     color: white;
     padding: 20px;
 }
@@ -159,7 +159,7 @@ footer{
     color: white;
 }
 html{
-    overflow: scroll;
+    overflow: auto;
 }
 .box{
     overflow: hidden;
